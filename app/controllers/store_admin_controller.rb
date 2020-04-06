@@ -2,6 +2,6 @@ class StoreAdminController < ApplicationController
   layout "admin"
   
   def orders
-    redner :layout => ""
+    render :layout => "order_adminstration"
   end 
 end 
